@@ -79,7 +79,7 @@ export default function Hero() {
           <motion.div className="hero__image-wrap" variants={itemVariants}>
             <div className="hero__image-glow" />
             <img 
-              src="/public/image/ram1.png" 
+              src="/image/ram1.png" 
               alt="Ramachandran A" 
               className="hero__profile-image" 
               onError={(e) => {
