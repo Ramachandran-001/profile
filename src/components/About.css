@@ -1,0 +1,215 @@
+.about {
+  background: linear-gradient(180deg, #050816 0%, #0a0e1a 100%);
+}
+
+.about__layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Avatar */
+.about__avatar-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about__avatar {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__avatar-emoji {
+  font-size: 5rem;
+  z-index: 2;
+  position: relative;
+  filter: drop-shadow(0 0 20px rgba(108,99,255,0.6));
+}
+
+.about__avatar-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: rotate-slow linear infinite;
+}
+
+.about__avatar-ring--1 {
+  width: 120px; height: 120px;
+  border-color: rgba(108, 99, 255, 0.4) transparent transparent transparent;
+  animation-duration: 4s;
+}
+
+.about__avatar-ring--2 {
+  width: 150px; height: 150px;
+  border-color: transparent rgba(6, 214, 160, 0.4) transparent transparent;
+  animation-duration: 6s;
+  animation-direction: reverse;
+}
+
+.about__avatar-ring--3 {
+  width: 180px; height: 180px;
+  border-color: transparent transparent rgba(247, 37, 133, 0.3) transparent;
+  animation-duration: 8s;
+}
+
+/* Bio Card */
+.about__bio {
+  padding: 2rem;
+}
+
+.about__bio-title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--clr-primary-light);
+  margin-bottom: 1rem;
+  letter-spacing: 0.3px;
+}
+
+.about__bio-text {
+  font-size: 0.95rem;
+  color: var(--clr-text-muted);
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+}
+
+.about__bio-text strong {
+  color: var(--clr-text);
+}
+
+.about__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.3rem;
+}
+
+.about__tag {
+  font-size: 0.82rem;
+  font-family: var(--font-code);
+  padding: 0.3rem 0.8rem;
+  background: rgba(108, 99, 255, 0.1);
+  border: 1px solid rgba(108, 99, 255, 0.25);
+  border-radius: 6px;
+  color: var(--clr-primary-light);
+}
+
+/* Stats */
+.about__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.about__stat {
+  text-align: center;
+  padding: 1.3rem 0.8rem;
+  cursor: default;
+  border-color: rgba(255,255,255,0.06);
+}
+
+.about__stat:hover {
+  border-color: var(--stat-color);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.about__stat-value {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 0.4rem 0 0.2rem;
+}
+
+.about__stat-label {
+  font-size: 0.75rem;
+  color: var(--clr-text-dim);
+  font-weight: 500;
+}
+
+/* Timeline */
+.about__timeline-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--clr-text-muted);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 36px 70px 1fr;
+  gap: 0 1rem;
+  align-items: start;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 36px;
+  left: 17px;
+  bottom: -1.2rem;
+  width: 2px;
+  background: linear-gradient(to bottom, rgba(108,99,255,0.3), transparent);
+}
+
+.timeline-item:last-child::before { display: none; }
+
+.timeline-item__dot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.timeline-item__year {
+  font-family: var(--font-code);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-top: 0.6rem;
+}
+
+.timeline-item__content {
+  padding: 1.2rem 1.5rem;
+}
+
+.timeline-item__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin-bottom: 0.3rem;
+}
+
+.timeline-item__org {
+  font-size: 0.82rem;
+  color: var(--clr-primary-light);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-item__desc {
+  font-size: 0.85rem;
+  color: var(--clr-text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+  .about__layout { grid-template-columns: 1fr; }
+  .about__stats { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .timeline-item { grid-template-columns: 36px 60px 1fr; gap: 0 0.6rem; }
+}
