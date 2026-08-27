@@ -64,7 +64,7 @@ const projects = [
     tech: ['Python', 'Django', 'React', 'PostgreSQL', 'REST API', 'Maps'],
     category: 'fullstack',
     github: 'https://github.com/Ramachandran-001',
-    live: '#',
+    live: 'https://ramachandran-001.github.io/Realestate-ragavi/',
     gradient: 'linear-gradient(135deg, #a78bfa, #f72585)',
     icon: '🏠',
     featured: false,
