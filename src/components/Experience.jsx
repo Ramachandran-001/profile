@@ -38,7 +38,7 @@ const experiences = [
     icon: '📜',
     title: 'Python Full Stack Development',
     company: 'Besant Technologies, Chennai',
-    period: '2025 – Present (In Progress)',
+    period: '2026',
     color: '#f72585',
     points: [
       'Comprehensive training in Python fundamentals to advanced OOP and Django framework',
