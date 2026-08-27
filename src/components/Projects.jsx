@@ -42,7 +42,7 @@ const projects = [
     gradient: 'linear-gradient(135deg, #f72585, #ff6b35)',
     icon: '💍',
     featured: false,
-    period: '2024',
+    period: '2026',
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ const projects = [
     gradient: 'linear-gradient(135deg, #ffd60a, #f72585)',
     icon: '🔐',
     featured: false,
-    period: '2024',
+    period: '2026',
   },
   {
     id: 5,
@@ -64,11 +64,11 @@ const projects = [
     tech: ['Python', 'Django', 'React', 'PostgreSQL', 'REST API', 'Maps'],
     category: 'fullstack',
     github: 'https://github.com/Ramachandran-001',
-    live: 'https://ramachandran-001.github.io/Realestate-ragavi/',
+    live: 'https://ramachandran-001.github.io/Realestate-ragavi/' ,
     gradient: 'linear-gradient(135deg, #a78bfa, #f72585)',
     icon: '🏠',
     featured: false,
-    period: '2024',
+    period: '2026',
   },
 ]
 
