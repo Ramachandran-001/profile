@@ -5,6 +5,19 @@ import { FiCode, FiDatabase, FiServer, FiGlobe } from 'react-icons/fi'
 import './Skills.css'
 
 const skillCategories = [
+   {
+  icon: FiServer,
+  label: 'AI Tools',
+  color: '#8b5cf6',
+  colorLight: '#a78bfa',
+  skills: [
+    { name: 'Claude (AI Assistant)', level: 70, icon: '🤖' },
+    { name: 'Cursor (AI Code Editor)', level: 68, icon: '💻' },
+    { name: 'Google AI / Gemini', level: 65, icon: '🧠' },
+    { name: 'OpenAI Codex', level: 60, icon: '⚙️' },
+    { name: 'Lovable (AI Dev Tool)', level: 62, icon: '✨' },
+  ]
+},
   {
     icon: FiServer,
     label: 'Backend',
