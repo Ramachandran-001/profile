@@ -88,13 +88,13 @@ export default function About() {
               </p>
               <p className="about__bio-text">
                 I gained hands-on industry experience as a <strong>Software Engineer Intern at Inwinteck Pvt. Ltd</strong> 
-                (Jun–Dec 2025), where I developed responsive front-end interfaces, built web portal features, 
+                (Jul–Dec 2025), where I developed responsive front-end interfaces, built web portal features, 
                 and improved application speed and security.
               </p>
-              <p className="about__bio-text">
-                I'm currently pursuing a <strong>Python Full Stack Development certification</strong> at Besant Technologies, Chennai. 
-                Passionate about writing clean, maintainable code and delivering great user experiences.
-              </p>
+             <p className="about__bio-text">
+               I completed a <strong>Python Full Stack Development certification</strong> at Besant Technologies, Chennai from January 25 to May 13, 2025. 
+                 Passionate about writing clean, maintainable code and delivering great user experiences.
+             </p>
 
               <div className="about__tags">
                 {['Python 🐍', 'React ⚛️', 'Django 🎸', 'Bootstrap 🎨', 'SQL 🗄️', 'Git 🔀', 'JavaScript 💛', 'HTML/CSS 🌐'].map(t => (
