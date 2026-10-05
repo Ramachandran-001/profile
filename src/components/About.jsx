@@ -12,7 +12,23 @@ const stats = [
 ]
 
 const timelineItems = [
+    {
+    year: '2026',
+    title: 'Tamil learning portal',
+    org: 'Independent Project',
+    desc:'Duolingo-style Tamil learning portal. Master Tamil with bite-sized lessons, interactive exercises, and daily streaks. Improve speaking, reading, writing, and grammar in a fun, game-like experience.',
+    color: '#6c63ff',
+    icon: '🎓',
+  },
   {
+    year: '2026',
+    title: 'Software Engineer Intern',
+    org: 'Inwinteck Pvt. Ltd',
+    desc: 'Jun 2025 – jan 2025. Developed responsive front-end interfaces, collaborated with teams to build web applications, implemented UI components and optimised performance.',
+    color: '#06d6a0',
+    icon: '💼',
+  },
+    {
     year: '2026',
     title: 'B.E. Computer Science Engineering',
     org: 'DMI Engineering College',
@@ -21,18 +37,18 @@ const timelineItems = [
     icon: '🎓',
   },
   {
-    year: '2025',
-    title: 'Software Engineer Intern',
-    org: 'Inwinteck Pvt. Ltd',
-    desc: 'Jun 2025 – Dec 2025. Developed responsive front-end interfaces, collaborated with teams to build web applications, implemented UI components and optimised performance.',
-    color: '#06d6a0',
-    icon: '💼',
-  },
-  {
-    year: '2025',
+    year: '2026',
     title: 'Python Full Stack Development',
     org: 'Besant Technologies, Chennai',
-    desc: 'Currently pursuing Python Full Stack Development certification — covering Python, Django, React, REST APIs, and database management.',
+    desc: 'Completed Python Full Stack Development certification at Besant Technologies, Chennai (Jan–May 2025).',
+    color: '#f72585',
+    icon: '📜',
+  },
+    {
+    year: '2025',
+    title: 'JSV Windmill Corparate Website',
+    org: 'Independent Project',
+    desc: 'JSV Windmill delivers advanced wind energy solutions, combining innovation, reliability, and sustainability.',
     color: '#f72585',
     icon: '📜',
   },
@@ -88,7 +104,7 @@ export default function About() {
               </p>
               <p className="about__bio-text">
                 I gained hands-on industry experience as a <strong>Software Engineer Intern at Inwinteck Pvt. Ltd</strong> 
-                (Jul–Dec 2025), where I developed responsive front-end interfaces, built web portal features, 
+                (Jul–jan2026), where I developed responsive front-end interfaces, built web portal features, 
                 and improved application speed and security.
               </p>
              <p className="about__bio-text">
