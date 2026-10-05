@@ -5,7 +5,7 @@ import { FiUser, FiAward, FiBookOpen, FiCpu, FiBriefcase } from 'react-icons/fi'
 import './About.css'
 
 const stats = [
-  { icon: FiCpu, value: '5+', label: 'Projects Built', color: '#6c63ff' },
+  { icon: FiCpu, value: '7+', label: 'Projects Built', color: '#6c63ff' },
   { icon: FiBriefcase, value: '2', label: 'Internship', color: '#06d6a0' },
   { icon: FiAward, value: '8.3', label: 'GPA Score', color: '#f72585' },
   { icon: FiBookOpen, value: '2026', label: 'Graduating', color: '#ffd60a' },
