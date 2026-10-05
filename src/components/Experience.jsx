@@ -10,7 +10,7 @@ const experiences = [
     icon: '💼',
     title: 'Software Engineer',
     company: 'Inwinteck Pvt. Ltd',
-    period: 'Jun 2025 – Dec 2025',
+    period: 'Jul 2025 – jan 2026',
     color: '#06d6a0',
     points: [
       'Developed responsive front-end interfaces using HTML, CSS, JavaScript, and React',
