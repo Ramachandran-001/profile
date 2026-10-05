@@ -15,7 +15,7 @@ const projects = [
     live: 'https://www.kvbct.in/',
     gradient: 'linear-gradient(135deg, #6c63ff, #a78bfa)',
     icon: '🏛️',
-    featured: true,
+    featured: false,
     period: 'Aug 2024',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     live: 'https://inwinteck.com/',
     gradient: 'linear-gradient(135deg, #06d6a0, #00f5ff)',
     icon: '🌐',
-    featured: true,
+    featured: false,
     period: 'Aug 2025',
   },
   {
@@ -70,6 +70,32 @@ const projects = [
     featured: false,
     period: '2026',
   },
+  {
+  id: 6,
+  title: 'JSV Windmill Corporate Site',
+  description: 'Modern corporate website for JSV Windmill showcasing wind energy solutions, services, sustainability initiatives, and global projects with a clean, professional design.',
+  tech: ['React', 'JavaScript', 'Tailwind CSS', 'Framer Motion', 'Responsive Design'],
+  category: 'frontend',
+  github: 'https://github.com/Ramachandran-001',
+  live: 'https://github.com/Ramachandran-001/Jsv',
+  gradient: 'linear-gradient(135deg, #0ea5e9, #0284c7)',
+  icon: '🌬️',
+  featured: false,
+  period: '2026',
+},
+  {
+  id: 7,
+  title: 'Tamil Learning Path',
+  description: 'Interactive Tamil learning web app with structured lessons, vocabulary quizzes, progress tracking, and gamified challenges to help beginners master Tamil step by step.',
+  tech: ['React', 'JavaScript', 'Tailwind CSS', 'Framer Motion', 'Local Storage'],
+  category: 'frontend',
+  github: 'https://github.com/Ramachandran-001',
+  live: 'https://github.com/Ramachandran-001/tamil-learning-app',
+  gradient: 'linear-gradient(135deg, #f97316, #f59e0b)',
+  icon: '📚',
+  featured: false,
+  period: '2026',
+},
 ]
 
 const filters = ['all', 'fullstack', 'frontend', 'backend']
