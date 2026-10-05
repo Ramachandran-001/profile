@@ -92,7 +92,7 @@ export default function About() {
                 and improved application speed and security.
               </p>
              <p className="about__bio-text">
-               I completed a <strong>Python Full Stack Development certification</strong> at Besant Technologies, Chennai from January 25 to May 13, 2025. 
+               I completed a <strong>Python Full Stack Development certification</strong> at Besant Technologies, Chennai from January 25 to May 13, 2026. 
                  Passionate about writing clean, maintainable code and delivering great user experiences.
              </p>
 
